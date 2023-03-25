@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-25T18:03:18 IST" name="Suite" finished-at="2023-03-25T18:03:47 IST" duration-ms="28959">
+    <groups>
+      <group name="regression">
+        <method signature="Acc.test_accountregistration()[pri:0, instance:testcases.Acc@5c33f1a9]" name="test_accountregistration" class="testcases.Acc"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Logintest.logintest()[pri:0, instance:testcases.Logintest@6069db50]" name="logintest" class="testcases.Logintest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="Acc.test_accountregistration()[pri:0, instance:testcases.Acc@5c33f1a9]" name="test_accountregistration" class="testcases.Acc"/>
+        <method signature="Logintest.logintest()[pri:0, instance:testcases.Logintest@6069db50]" name="logintest" class="testcases.Logintest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2023-03-25T18:03:18 IST" name="Test" finished-at="2023-03-25T18:03:47 IST" duration-ms="28959">
+      <class name="testcases.Acc">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.Acc@5c33f1a9]" started-at="2023-03-25T18:03:19 IST" name="setup" finished-at="2023-03-25T18:03:28 IST" duration-ms="9279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_accountregistration()[pri:0, instance:testcases.Acc@5c33f1a9]" started-at="2023-03-25T18:03:28 IST" name="test_accountregistration" finished-at="2023-03-25T18:03:31 IST" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_accountregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Acc@5c33f1a9]" started-at="2023-03-25T18:03:31 IST" name="teardown" finished-at="2023-03-25T18:03:31 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Acc -->
+      <class name="testcases.Logintest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.Logintest@6069db50]" started-at="2023-03-25T18:03:31 IST" name="setup" finished-at="2023-03-25T18:03:39 IST" duration-ms="7455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:testcases.Logintest@6069db50]" started-at="2023-03-25T18:03:39 IST" name="logintest" finished-at="2023-03-25T18:03:47 IST" duration-ms="8217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@6069db50]" started-at="2023-03-25T18:03:47 IST" name="teardown" finished-at="2023-03-25T18:03:47 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
